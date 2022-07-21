@@ -21,7 +21,12 @@ android {
     }
 
     buildTypes {
+        debug{
+            buildConfigField "String", "API_BASE", '"http://dev.frndapp.in:9000/api/"'
+        }
+
         release {
+            buildConfigField "String", "API_BASE", '"http://dev.frndapp.in:9000/api/"'
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

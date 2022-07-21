@@ -6,8 +6,10 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.frnd.calendartasks.R
 import com.frnd.calendartasks.ui.adapters.CalendarAdapter
 import com.frnd.calendartasks.utils.CalendarUtil
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

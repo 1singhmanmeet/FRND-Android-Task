@@ -1,4 +1,4 @@
-package com.frnd.calendartasks.data
+package com.frnd.calendartasks.data.models
 
 import java.util.*
 

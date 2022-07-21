@@ -1,7 +1,7 @@
 package com.frnd.calendartasks.utils
 
 import android.util.Log
-import com.frnd.calendartasks.data.CalenderDataItem
+import com.frnd.calendartasks.data.models.CalenderDataItem
 import java.util.*
 
 class CalendarUtil {

@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.frnd.calendartasks.databinding.CalenderDataItemBinding
-import com.frnd.calendartasks.data.CalenderDataItem
+import com.frnd.calendartasks.data.models.CalenderDataItem
 
 class CalendarAdapter:ListAdapter<CalenderDataItem,
         CalendarAdapter.CalendarItemHolder>(CalendarDiff()){
